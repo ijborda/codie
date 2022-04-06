@@ -1,0 +1,155 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Prevent white space on the right side to appear when screensize is small */
+html, body {
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+}
+
+/* Font size */
+html {
+     font-size: 65%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+footer {
+     width: 100%;
+     bottom: 0;
+     padding: 5rem;
+}
+.main {
+     height: 60vh;
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+}
+.overview {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 1rem;
+}
+.skills {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 4em; 
+}
+.skills > div {
+     display: flex;
+     flex-direction: column;
+}
+.content > div {
+     margin-bottom: 5rem;
+}
+body {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+/******************************************
+/* DESIGNS
+/*******************************************/
+
+h1 {
+     font-size: 5rem;
+}
+.result {
+     width: 350px;
+     text-align: center;
+     margin: 0 auto;
+     display: grid;
+     grid-template-rows: repeat(3, auto);
+     font-size: 1.3rem;
+     font-weight: bold;
+}
+.head {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+img {
+     height: 3rem;
+}
+.profile {
+     display: flex;
+     align-items: center;
+}
+.positions {
+     display: flex;
+     flex-direction: column;
+     text-align: start;
+     padding-left: 2rem;
+}
+.positions span {
+     width: 300px;
+}
+.name {
+     font-size: 2rem;
+}
+.overview > div {
+     width: 200px;
+     border: solid rgb(224, 224, 224) 1px;
+     border-radius: 5px;
+     padding: 2rem;
+}
+.overview span {
+     font-size: 3rem;
+}
+.overview h3 {
+     font-size: 1.5rem;
+     color: gray;
+     font-weight: 400;
+}
+.skills img {
+     height: 80px;
+     width: 80px;
+}
+.skills span {
+     font-size: 1.5rem;
+}
+.form > div {
+     width: 300px;
+     margin: 3rem auto;
+}
+
+/******************************************
+/* JS RELATED
+/*******************************************/
+
+#content {
+     display: none;
+}
+#main {
+     display: contents;
+}
