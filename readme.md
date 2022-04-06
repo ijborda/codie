@@ -7,6 +7,7 @@ Visit the site at [http://imarijoyborda.com/codewars-api/](http://imarijoyborda.
 # Contibute
 There are still lots that need to be improved in this web application. Feel free to contribute! Just issue a pull request. Here are some of the things that you may contribute to:
 * Improve the frontend design
+* Improve responsivenes
 * Refactor the scripts
 * Make documentation or guide
 * Add more stats to show
