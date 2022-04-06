@@ -20,7 +20,11 @@ function displayData() {
 
 function process(result) {
     let title = document.querySelector('#title')
-    title.innerHTML = `${result.username} of ${result.clan}`
+    if (result.clan === 'None') {
+        title.innerHTML = `Hi, ${result.username}! You don't belong to any clan.`
+    } else {
+        title.innerHTML = `Hi, ${result.username} of ${result.clan}!`
+    }
 
     let honor = document.querySelector('#honor')
     let leaderboard = document.querySelector('#leaderboard')
@@ -40,7 +44,7 @@ function process(result) {
         img.src = `assets/proglang/${a}.png`
         
         let kyu = document.createElement('span')
-        kyu.innerHTML = 'Rank ' + proglang[a].name
+        kyu.innerHTML = 'Rank: ' + proglang[a].name
 
         let score = document.createElement('span')
         score.innerHTML = 'Score: ' + proglang[a].score
