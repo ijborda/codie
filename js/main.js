@@ -20,7 +20,7 @@ function displayData() {
 
 function process(result) {
     let title = document.querySelector('#title')
-    if (result.clan === 'Unknown') {
+    if (result.clan === null) {
         title.innerHTML = `Hi, ${result.username}! You don't belong to any clan.`
     } else {
         title.innerHTML = `Hi, ${result.username} of ${result.clan}!`
