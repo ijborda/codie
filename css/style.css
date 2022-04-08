@@ -12,7 +12,6 @@
      line-height: 0;
      height: 0;
 }
-
 .clear {
 	clear: both;
 }
@@ -26,52 +25,16 @@ html, body {
      overflow-x: hidden;
 }
 
-/* Font size */
+/* Font size and padding */
 html {
      font-size: 65%;
      padding: 3rem;
 }
 
 /******************************************
-/* BASE STYLES
+/* OVERALL LAYOUT
 /*******************************************/
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-footer {
-     width: 100%;
-     bottom: 0;
-     padding: 5rem;
-}
-.main {
-     display: flex;
-     flex-flow: column wrap;
-     justify-content: center;
-     align-items: center;
-     gap: 2rem;
-}
-.overview {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
-     gap: 1rem;
-}
-.skills {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
-     gap: 4em; 
-}
-.skills > div {
-     display: flex;
-     flex-direction: column;
-}
-.content > div {
-     margin-bottom: 5rem;
-}
 body {
      display: flex;
      flex-direction: column;
@@ -79,91 +42,101 @@ body {
 }
 
 /******************************************
-/* DESIGNS
+/* WELCOME
 /*******************************************/
 
 h1 {
+     /* Set size for title */
      font-size: 5rem;
 }
-.result {
-     width: 350px;
-     text-align: center;
-     margin: 0 auto;
-     display: grid;
-     grid-template-rows: repeat(3, auto);
-     font-size: 1.3rem;
-     font-weight: bold;
+.input {
+     /* Center input field */
+     justify-content: center;
+     /* Set spacing */
+     margin: 3rem auto;
+     /* Prevent input from being cut on smaller screens */
+     max-width: 300px;
 }
-.head {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-}
-img {
-     height: 3rem;
-}
-.profile {
-     display: flex;
-     align-items: center;
-}
-.positions {
-     display: flex;
-     flex-direction: column;
-     text-align: start;
-     padding-left: 2rem;
-}
-.positions span {
-     width: 300px;
-}
+
+/******************************************
+/* RESULTS
+/*******************************************/
+
 .name {
-     font-size: 2rem;
+     /* Change font style */
+     font-size: 3rem;
+     font-weight: 500;
+     /* Give spacing */
+     margin: 5rem 0;
 }
-#username {
-     flex: 1 1 auto;
-     max-width: 200px;
+.highlights {
+     /* Layout highlights */
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     gap: 1rem;
+     /* Give spacing */
+     margin-bottom: 5rem;
 }
-#input {
-    justify-content: center;
-}
-.overview > div {
+.highlights > div {
+     /* Style each highlight boxes */
      width: 200px;
      border: solid rgb(224, 224, 224) 1px;
      border-radius: 5px;
      padding: 2rem;
 }
-.overview span {
-     font-size: 3rem;
-}
-.overview h3 {
+.highlights h3 {
+     /* Style highlight names */
      font-size: 1.5rem;
      color: gray;
      font-weight: 400;
 }
+.highlights span {
+     /* Style highlight values */
+     font-size: 3rem;
+}
+.skills {
+     /* Layout skills */
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     gap: 3rem; 
+     /* Give spacing */
+     margin-bottom: 5rem;
+}
+.skills > div {
+     /* Layout each skills box */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
 .skills img {
+     /* Adjust skills image size */
      height: 80px;
      width: 80px;
 }
 .skills span {
+     /* Adjust skills text content */
      font-size: 1.5rem;
 }
-.form > div {
-     width: 300px;
-     margin: 3rem auto;
-}
-#title {
-     font-size: 3rem;
-     padding-bottom: 2rem;
-     font-weight: 500;
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+     /* Set spacing */
+     padding: 5rem;
 }
 
 /******************************************
 /* JS RELATED
 /*******************************************/
 
-#content {
+#results {
      display: none;
 }
-#main {
+#welcome {
      display: contents;
 }
 
@@ -171,18 +144,24 @@ img {
 /* MEDIA QUERIES
 /*******************************************/
 
+/* Adjust layout for mobiles */
 @media screen and (max-width: 400px) {
-     .overview > div {
+     /* Make highlights boxes smaller */
+     .highlights > div {
           width: 130px;
      }
-     .overview span {
+     /* Adjust font size of highlighs values */
+     .highlights span {
           font-size: 2.3rem;
      }
-     .overview h3 {
+     /* Adjust font size of highlighs names */
+     .highlights h3 {
           font-size: 1.1rem;
      }
-     #title {
+     .name {
+          /* Adjust font size of name */
           font-size: 2.2rem;
-          padding-bottom: 0;
+          /* Adjust spacing of name */
+          margin-top: 0;
      }
 }
