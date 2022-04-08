@@ -1,5 +1,5 @@
 # Codewars API
-Use this web application to see your [Codewars](https://www.codewars.com/) stats at a glance. 
+Use this web application to see your [Codewars](https://www.codewars.com/) stats at a glance. This uses [Codewars API](https://dev.codewars.com/#introduction).
 
 # How to use
 Visit the site at [http://imarijoyborda.com/codewars-api/](http://imarijoyborda.com/codewars-api/). Enter your username and press `generate`. You will see your `honor`, `leaderboard position`, `overall rank`, number of `challenges completed`, and number of `challenges authored`. You will also see the `rank` and `scores` you have for each programming languages you used.
