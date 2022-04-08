@@ -26,11 +26,12 @@ function showStats(result) {
         `Hi, ${result.username} of ${result.clan}!`
 
     // Render highlights
+    console.log(result)
     document.querySelector('#honor').innerHTML = result.honor
     document.querySelector('#leaderboard').innerHTML = result.leaderboardPosition
-    document.querySelector('#overallrank').innerHTML = result.name
-    document.querySelector('#challengesCompleted').innerHTML = result.totalCompleted
-    document.querySelector('#challengesAuthored').innerHTML = result.totalAuthored
+    document.querySelector('#overallrank').innerHTML = result.ranks.overall.name
+    document.querySelector('#challengesCompleted').innerHTML = result.codeChallenges.totalCompleted
+    document.querySelector('#challengesAuthored').innerHTML = result.codeChallenges.totalAuthored
 
     // Render skills
     let proglang = result.ranks.languages
