@@ -36,6 +36,7 @@ function showStats(result) {
     // Render skills
     let proglang = result.ranks.languages
     Object.keys(proglang).forEach(a => {
+        console.log(proglang[a])
         // Create skill image
         let img = document.createElement('img')
         img.src = `assets/proglang/${a}.png`
@@ -47,7 +48,9 @@ function showStats(result) {
         score.innerHTML = 'Score: ' + proglang[a].score
         // Render skill
         let div = document.createElement('div')
-        div.appendChild(img).appendChild(kyu).appendChild(score)
+        div.appendChild(img)
+        div.appendChild(kyu)
+        div.appendChild(score)
         let skills = document.querySelector('#skills')
         skills.appendChild(div)
     })
