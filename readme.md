@@ -4,8 +4,8 @@ Use [Codie](http://imarijoyborda.com/codewars-api/) to see your [Codewars](https
 
 Link to project:[http://imarijoyborda.com/codewars-api/](http://imarijoyborda.com/codewars-api/). 
 
-![Screenshot of Site - 1](readme/codie-1.png)
-![Screenshot of Site - 2](readme/codie-2.png)
+![Screenshot of Site - 1](readme/assets/codie-1.png)
+![Screenshot of Site - 2](readme/assets/codie-2.png)
 
 ## How To Use
 Enter your username and press `generate`. You will see your `honor`, `leaderboard position`, `overall rank`, number of `challenges completed`, and number of `challenges authored`. You will also see the `rank` and `scores` you have for each programming languages you used.
