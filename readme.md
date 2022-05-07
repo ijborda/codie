@@ -4,8 +4,8 @@ Use [Codie](http://imarijoyborda.com/codewars-api/) to see your [Codewars](https
 
 Link to project:[http://imarijoyborda.com/codewars-api/](http://imarijoyborda.com/codewars-api/). 
 
-![Screenshot of Site - 1](readme/assets/codie-1.png)
-![Screenshot of Site - 2](readme/assets/codie-2.png)
+![Screenshot of Site - 1](assets/readme/codie-1.png)
+![Screenshot of Site - 2](assets/readme/codie-2.png)
 
 ## How To Use
 Enter your username and press `generate`. You will see your `honor`, `leaderboard position`, `overall rank`, number of `challenges completed`, and number of `challenges authored`. You will also see the `rank` and `scores` you have for each programming languages you used.
@@ -13,8 +13,8 @@ Enter your username and press `generate`. You will see your `honor`, `leaderboar
 ## How It's Made
 This uses [Codewars API](https://dev.codewars.com/#introduction). Tech used: HTML, CSS, Bootstrap, and JavaScript.
 
-## Contibute
-There are still lots that need to be improved in this web application. Feel free to contribute! Just issue a pull request. Here are some of the things that you may contribute to:
+## Future Improvements
+There are still lots that need to be improved in this web application. Some plans are:
 * Improve the frontend design
 * Improve responsivenes
 * Add response where username does not exist
@@ -25,9 +25,6 @@ There are still lots that need to be improved in this web application. Feel free
 * Improve this README
 
 Of course, I'll give credits to your contiribtutions accordingly here in the repository and in the site! 
-
-## Contributors
-None yet. 
 
 ## Sources
 This is where the .png files of the programming languages were obtained:
