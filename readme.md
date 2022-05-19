@@ -1,8 +1,8 @@
 # Codie | See your Codewars Stats at a Glance
 
-Use [Codie](http://imarijoyborda.com/codewars-api/) to see your [Codewars](https://www.codewars.com/) stats at a glance.
+Use [Codie](http://imarijoyborda.com/codie/) to see your [Codewars](https://www.codewars.com/) stats at a glance.
 
-Link to project:[http://imarijoyborda.com/codewars-api/](http://imarijoyborda.com/codewars-api/). 
+Link to project:[http://imarijoyborda.com/codie/](http://imarijoyborda.com/codie/). 
 
 ![Screenshot of Site - 1](assets/readme/codie-1.png)
 ![Screenshot of Site - 2](assets/readme/codie-2.png)
