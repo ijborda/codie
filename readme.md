@@ -2,7 +2,9 @@
 
 Use [Codie](http://imarijoyborda.com/codie/) to see your [Codewars](https://www.codewars.com/) stats at a glance.
 
-Link to project:[http://imarijoyborda.com/codie/](http://imarijoyborda.com/codie/). 
+My motivation: I love codewars. But their dashboard has no easy way to check user's stats in a glance, specially if the user uses multiple languages. I develop this tool so that users can check their own or others' profile and easily see their ranks, leaderboard position, as well as the rank in each  languages. 
+
+Link to project:[http://imarijoyborda.com/codewars-api/](http://imarijoyborda.com/codewars-api/). 
 
 ![Screenshot of Site - 1](assets/readme/codie-1.png)
 ![Screenshot of Site - 2](assets/readme/codie-2.png)
